@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.muhammad-karbalaee",
+    "module": "jalgorithm",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3r4rvcpnmvdtjgldfe3qg3zr4i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jalgorithm-1.1.jar",
+          "url": "jalgorithm-1.1.jar",
+          "size": 601,
+          "sha512": "ece7853eb0c2b6c52d4ce5cdc89979d15b8c80abb1d9ac36fdb778c8b642f79d20a8d43faaec01b72e03bdf92f9bc0eb1e55bc9e2e8b79a651fe14a320edbf77",
+          "sha256": "85899c9717257eb61210b57a9a7988849596fafb297810ba3e4b079dac73fc66",
+          "sha1": "4b9ef8e0d3f6dea6bb35d573d7c38f8382922a8c",
+          "md5": "d20863926b6b9ff62604bc95617b2645"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jalgorithm-1.1.jar",
+          "url": "jalgorithm-1.1.jar",
+          "size": 601,
+          "sha512": "ece7853eb0c2b6c52d4ce5cdc89979d15b8c80abb1d9ac36fdb778c8b642f79d20a8d43faaec01b72e03bdf92f9bc0eb1e55bc9e2e8b79a651fe14a320edbf77",
+          "sha256": "85899c9717257eb61210b57a9a7988849596fafb297810ba3e4b079dac73fc66",
+          "sha1": "4b9ef8e0d3f6dea6bb35d573d7c38f8382922a8c",
+          "md5": "d20863926b6b9ff62604bc95617b2645"
+        }
+      ]
+    }
+  ]
+}
