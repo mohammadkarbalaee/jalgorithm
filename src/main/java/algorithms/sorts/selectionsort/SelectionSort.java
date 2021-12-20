@@ -1,7 +1,7 @@
-package algorithms.sort.selectionsort;
+package algorithms.sorts.selectionsort;
 
 public class SelectionSort{
-  private int[] array;
+  private final int[] array;
 
   public SelectionSort(int arrayLength){
     this.array = new int[arrayLength];
