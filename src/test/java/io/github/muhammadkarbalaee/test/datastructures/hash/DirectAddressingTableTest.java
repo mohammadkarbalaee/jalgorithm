@@ -1,11 +1,11 @@
 package io.github.muhammadkarbalaee.test.datastructures.hash;
 
 import io.github.muhammadkarbalaee.datastructures.hash.DirectAddressTable;
-import io.github.muhammadkarbalaee.datastructures.hash.DirectAddressableObject;
+import io.github.muhammadkarbalaee.datastructures.hash.KeyLabledObject;
 import io.github.muhammadkarbalaee.exceptions.datastructure.hash.DataOverridingException;
 import io.github.muhammadkarbalaee.exceptions.datastructure.hash.TableIndexOutOfBoundException;
 
-class DirectAddressable implements DirectAddressableObject {
+class DirectAddressable implements KeyLabledObject {
   private int key;
   private String value;
 

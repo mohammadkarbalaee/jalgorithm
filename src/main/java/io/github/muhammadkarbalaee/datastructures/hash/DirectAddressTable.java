@@ -1,11 +1,12 @@
 package io.github.muhammadkarbalaee.datastructures.hash;
 
+import io.github.muhammadkarbalaee.datastructures.DataStructure;
 import io.github.muhammadkarbalaee.exceptions.datastructure.hash.DataOverridingException;
 import io.github.muhammadkarbalaee.exceptions.datastructure.hash.TableIndexOutOfBoundException;
 
 import java.util.ArrayList;
 
-public class DirectAddressTable<T extends DirectAddressableObject> {
+public class DirectAddressTable<T extends KeyLabledObject> implements DataStructure<T> {
   private final ArrayList<T> table;
   private final int tableLength;
 
@@ -17,10 +18,12 @@ public class DirectAddressTable<T extends DirectAddressableObject> {
     }
   }
 
+  @Override
   public T search(int key) {
     return this.table.get(key);
   }
 
+  @Override
   public void insert(T newObject) throws DataOverridingException, TableIndexOutOfBoundException {
     if (newObject.getKey() >= this.tableLength) {
       throw new TableIndexOutOfBoundException();
@@ -31,6 +34,7 @@ public class DirectAddressTable<T extends DirectAddressableObject> {
     }
   }
 
+  @Override
   public void delete(T targetObject) {
     this.table.set(targetObject.getKey(),null);
   }
