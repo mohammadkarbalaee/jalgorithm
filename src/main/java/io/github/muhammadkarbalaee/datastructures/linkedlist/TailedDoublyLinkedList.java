@@ -111,7 +111,7 @@ public class TailedDoublyLinkedList<T extends KeyLabledObject>{
     this.length--;
   }
 
-  int size(){
+  public int size(){
     return this.length;
   }
 }

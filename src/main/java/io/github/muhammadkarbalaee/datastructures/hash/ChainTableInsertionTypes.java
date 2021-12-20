@@ -1,6 +1,6 @@
 package io.github.muhammadkarbalaee.datastructures.hash;
 
 public enum ChainTableInsertionTypes {
-  AtHead,
-  AtTail,
+  AT_HEAD,
+  AT_TAIL,
 }
