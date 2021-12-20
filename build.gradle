@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-group 'io.github.muhammad-karbalaee'
-version '1.0-SNAPSHOT'
+group 'io.github.muhammadkarbalaee'
+version '1.0'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 publishing {
     publications{
         maven(MavenPublication) {
-            groupId = 'io.github.muhammad-karbalaee'
+            groupId = 'io.github.muhammadkarbalaee'
             artifactId = 'jalgorithm'
             version = '1.0'
 
@@ -27,10 +27,10 @@ publishing {
     repositories {
         maven {
             name = "OSSRH"
-            url = "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
             credentials {
-                username = "muhammadksht"
-                password = "%%%%%%&x4mlinux5899mmadAAA"
+                username = "*"
+                password = "*"
             }
         }
     }
