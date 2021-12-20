@@ -1,4 +1,4 @@
-package algorithms.sorts.selectionsort;
+package io.github.muhammadkarbalaee.selectionsort;
 
 public class SelectionSort{
   private final int[] array;
