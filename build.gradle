@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.example'
+group 'io.github.muhammad-karbalaee'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -11,10 +11,27 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
 }
 
-test {
-    useJUnitPlatform()
+publishing {
+    publications{
+        maven(MavenPublication) {
+            groupId = 'io.github.muhammad-karbalaee' as Publication
+            artifactId = 'jalgorithm' as Publication
+            version = '1.1' as Publication
+
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            name = "OSSRH"
+            url = "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+            credentials {
+                username = System.getenv("MAVEN_USERNAME")
+                password = System.getenv("MAVEN_PASSWORD")
+            }
+        }
+    }
 }
