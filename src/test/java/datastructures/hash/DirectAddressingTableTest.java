@@ -1,7 +1,5 @@
-package io.github.muhammadkarbalaee.test.datastructures.hash;
+package datastructures.hash;
 
-import datastructures.hash.DirectAddressTable;
-import datastructures.hash.KeyLabledObject;
 import exceptions.hash.DataOverridingException;
 import exceptions.hash.TableIndexOutOfBoundException;
 

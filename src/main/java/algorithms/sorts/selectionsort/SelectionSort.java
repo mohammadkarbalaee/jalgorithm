@@ -1,6 +1,8 @@
 package algorithms.sorts.selectionsort;
 
-public class SelectionSort{
+import algorithms.sorts.SortAlgorithm;
+
+public class SelectionSort extends SortAlgorithm {
   private final int[] array;
 
   public SelectionSort(int arrayLength){
@@ -27,6 +29,7 @@ public class SelectionSort{
           leastIndex = j;
         }
       }
+      super.swap(this.array,i,leastIndex);
     }
     return array;
   }
