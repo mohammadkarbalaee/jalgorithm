@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'java-library'
     id 'maven-publish'
     id 'signing'
 }
@@ -15,17 +15,21 @@ dependencies {
 
 }
 
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
 publishing {
     publications{
-        maven(MavenPublication) {
+
+        mavenJava(MavenPublication){
+
             groupId = 'io.github.muhammadkarbalaee'
             artifactId = 'jalgorithm'
             version = '1.0'
-
             from components.java
-        }
 
-        mavenJava(MavenPublication){
             pom {
                 name = 'Jalgorithm'
                 description = 'Jalgorithm is an open-source Java library which has implemented various algorithms and data structure'
@@ -63,5 +67,15 @@ publishing {
                 password = project.properties["ossrhPassword"]
             }
         }
+    }
+}
+
+signing {
+    sign publishing.publications.mavenJava
+}
+
+javadoc {
+    if(JavaVersion.current().isJava9Compatible()) {
+        options.addBooleanOption('html5', true)
     }
 }
