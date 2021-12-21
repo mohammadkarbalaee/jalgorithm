@@ -14,6 +14,7 @@ Data structure implemented so far:
 Sort algorithms implemented so far:
 
 - selection sort
+- quick sort
 
 <br>
 
