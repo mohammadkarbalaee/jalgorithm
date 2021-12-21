@@ -21,4 +21,10 @@ Sort algorithms implemented so far:
 
 ### Add Jalgorithm to your projects
 
-[Download JAR files](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+- [<img src="readme_files/jar.png" width="30"/> Download JAR files manually](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+
+- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+
+- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+
+- [Any other dependency manager](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
