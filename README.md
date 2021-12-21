@@ -19,4 +19,6 @@ Sort algorithms implemented so far:
 
 <img src="readme_files/maven.jpg" alt="" width="150"/>
 
-[Jalgorithm on Maven Central](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+### Add Jalgorithm to your projects
+
+[Download JAR files](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
