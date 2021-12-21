@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'maven-publish'
+    id 'signing'
 }
 
 group 'io.github.muhammadkarbalaee'
@@ -23,14 +24,43 @@ publishing {
 
             from components.java
         }
+
+        mavenJava(MavenPublication){
+            pom {
+                name = 'Jalgorithm'
+                description = 'Jalgorithm is an open-source Java library which has implemented various algorithms and data structure'
+                url = 'https://github.com/muhammadkarbalaee/jalgorithm'
+                inceptionYear = '2021'
+
+                licenses {
+                    license {
+                        name = 'MIT License'
+                        url = 'http://www.opensource.org/licenses/mit-license.php'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'muhammadkarbalaee'
+                        name = 'Muhammad Karbalaee'
+                        email = 'muhammad.ksht@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
+                    developerConnection = 'scm:git:ssh://github.com:muhammadkarbalaee/jalgorithm.git'
+                    url = 'https://github.com/muhammadkarbalaee/jalgorithm'
+                }
+            }
+        }
     }
+
     repositories {
         maven {
             name = "OSSRH"
             url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
             credentials {
-                username = "*"
-                password = "*"
+                username = project.properties["ossrhUsername"]
+                password = project.properties["ossrhPassword"]
             }
         }
     }

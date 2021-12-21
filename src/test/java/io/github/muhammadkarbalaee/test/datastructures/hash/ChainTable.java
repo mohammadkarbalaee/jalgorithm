@@ -1,9 +1,9 @@
 package io.github.muhammadkarbalaee.test.datastructures.hash;
 
-import io.github.muhammadkarbalaee.datastructures.hash.ChainTableInsertionTypes;
-import io.github.muhammadkarbalaee.datastructures.hash.ChainedHashTable;
-import io.github.muhammadkarbalaee.datastructures.hash.HashFunctionTypes;
-import io.github.muhammadkarbalaee.datastructures.hash.KeyLabledObject;
+import datastructures.hash.ChainTableInsertionTypes;
+import datastructures.hash.ChainedHashTable;
+import datastructures.hash.HashFunctionTypes;
+import datastructures.hash.KeyLabledObject;
 
 class Chainable implements KeyLabledObject {
   private int key;

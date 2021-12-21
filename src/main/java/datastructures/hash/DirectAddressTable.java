@@ -1,8 +1,8 @@
-package io.github.muhammadkarbalaee.datastructures.hash;
+package datastructures.hash;
 
-import io.github.muhammadkarbalaee.datastructures.DataStructure;
-import io.github.muhammadkarbalaee.exceptions.datastructure.hash.DataOverridingException;
-import io.github.muhammadkarbalaee.exceptions.datastructure.hash.TableIndexOutOfBoundException;
+import datastructures.DataStructure;
+import exceptions.hash.DataOverridingException;
+import exceptions.hash.TableIndexOutOfBoundException;
 
 import java.util.ArrayList;
 

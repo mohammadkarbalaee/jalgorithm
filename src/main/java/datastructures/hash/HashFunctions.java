@@ -1,4 +1,4 @@
-package io.github.muhammadkarbalaee.datastructures.hash;
+package datastructures.hash;
 
 public class HashFunctions {
   public static int divisionHash(int key,int tableLength){

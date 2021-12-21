@@ -1,4 +1,4 @@
-package io.github.muhammadkarbalaee.datastructures.hash;
+package datastructures.hash;
 
 public interface KeyLabledObject {
   int key = 0;

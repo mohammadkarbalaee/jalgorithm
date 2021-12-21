@@ -1,4 +1,4 @@
-package io.github.muhammadkarbalaee.exceptions.datastructure.hash;
+package exceptions.hash;
 
 public class TableIndexOutOfBoundException extends Exception {
   public TableIndexOutOfBoundException(){

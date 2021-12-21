@@ -1,6 +1,6 @@
-package io.github.muhammadkarbalaee.datastructures.linkedlist;
+package datastructures.linkedlist;
 
-import io.github.muhammadkarbalaee.datastructures.hash.KeyLabledObject;
+import datastructures.hash.KeyLabledObject;
 
 public class DoublyNode<T extends KeyLabledObject>{
   private T data;

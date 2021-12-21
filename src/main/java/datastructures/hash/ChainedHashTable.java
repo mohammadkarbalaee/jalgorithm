@@ -1,7 +1,7 @@
-package io.github.muhammadkarbalaee.datastructures.hash;
+package datastructures.hash;
 
-import io.github.muhammadkarbalaee.datastructures.DataStructure;
-import io.github.muhammadkarbalaee.datastructures.linkedlist.TailedDoublyLinkedList;
+import datastructures.DataStructure;
+import datastructures.linkedlist.TailedDoublyLinkedList;
 
 import java.util.ArrayList;
 
