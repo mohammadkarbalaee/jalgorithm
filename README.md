@@ -24,8 +24,18 @@ Sort algorithms implemented so far:
 
 - [<img src="readme_files/jar.png" width="30"/> Download JAR files manually](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
 
-- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
+```groovy
+implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0'
+```
+- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
+```xml
+<dependency>
+  <groupId>io.github.muhammadkarbalaee</groupId>
+  <artifactId>jalgorithm</artifactId>
+  <version>1.0</version>
+</dependency>
+```
 
-- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
+- [Any other dependency manager](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
 
-- [Any other dependency manager](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
