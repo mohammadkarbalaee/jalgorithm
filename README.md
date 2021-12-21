@@ -15,3 +15,8 @@ Sort algorithms implemented so far:
 
 - selection sort
 
+<br>
+
+<img src="readme_files/maven.jpg" alt="" width="70"/>
+
+[Jalgorithm on Maven Central](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
