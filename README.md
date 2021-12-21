@@ -17,6 +17,6 @@ Sort algorithms implemented so far:
 
 <br>
 
-<img src="readme_files/maven.jpg" alt="" width="70"/>
+<img src="readme_files/maven.jpg" alt="" width="150"/>
 
 [Jalgorithm on Maven Central](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
