@@ -1,7 +1,7 @@
-package datastructures.hash;
+package io.github.jalgorithm.datastructures.hash;
 
-import datastructures.DataStructure;
-import datastructures.linkedlist.TailedDoublyLinkedList;
+import io.github.jalgorithm.datastructures.DataStructure;
+import io.github.jalgorithm.datastructures.linkedlist.TailedDoublyLinkedList;
 
 import java.util.ArrayList;
 

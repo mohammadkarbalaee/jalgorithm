@@ -1,6 +1,6 @@
-package algorithms.sorts.quicksort;
+package io.github.jalgorithm.algorithms.sorts.quicksort;
 
-import algorithms.sorts.SortAlgorithm;
+import io.github.jalgorithm.algorithms.sorts.SortAlgorithm;
 
 public class QuickSort extends SortAlgorithm {
   private int[] array;

@@ -1,4 +1,4 @@
-package datastructures.hash;
+package io.github.jalgorithm.datastructures.hash;
 
 class Chainable implements KeyLabledObject {
   private int key;

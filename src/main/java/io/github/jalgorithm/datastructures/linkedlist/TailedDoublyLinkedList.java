@@ -1,7 +1,7 @@
-package datastructures.linkedlist;
+package io.github.jalgorithm.datastructures.linkedlist;
 
 
-import datastructures.hash.KeyLabledObject;
+import io.github.jalgorithm.datastructures.hash.KeyLabledObject;
 
 public class TailedDoublyLinkedList<T extends KeyLabledObject>{
   private DoublyNode<T> headNode = null;

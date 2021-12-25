@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'io.github.muhammadkarbalaee'
-version '1.0'
+version '1.0.1'
 
 repositories {
     mavenCentral()
@@ -27,7 +27,7 @@ publishing {
 
             groupId = 'io.github.muhammadkarbalaee'
             artifactId = 'jalgorithm'
-            version = '1.0'
+            version = '1.0.1'
             from components.java
 
             pom {
@@ -51,7 +51,7 @@ publishing {
                 }
                 scm {
                     connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
-                    developerConnection = 'scm:git:ssh://github.com:muhammadkarbalaee/jalgorithm.git'
+                    developerConnection = 'scm:git:ssh://github.com/muhammadkarbalaee/jalgorithm.git'
                     url = 'https://github.com/muhammadkarbalaee/jalgorithm'
                 }
             }

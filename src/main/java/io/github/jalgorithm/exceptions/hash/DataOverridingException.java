@@ -1,4 +1,4 @@
-package exceptions.hash;
+package io.github.jalgorithm.exceptions.hash;
 
 public class DataOverridingException extends Exception {
 

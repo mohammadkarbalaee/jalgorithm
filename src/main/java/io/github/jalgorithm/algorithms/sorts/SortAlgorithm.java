@@ -1,4 +1,4 @@
-package algorithms.sorts;
+package io.github.jalgorithm.algorithms.sorts;
 
 public class SortAlgorithm {
   public void swap(int[] array,int i,int j){

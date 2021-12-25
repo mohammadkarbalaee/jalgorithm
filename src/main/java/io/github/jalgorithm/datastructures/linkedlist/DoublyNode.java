@@ -1,6 +1,6 @@
-package datastructures.linkedlist;
+package io.github.jalgorithm.datastructures.linkedlist;
 
-import datastructures.hash.KeyLabledObject;
+import io.github.jalgorithm.datastructures.hash.KeyLabledObject;
 
 public class DoublyNode<T extends KeyLabledObject>{
   private T data;
