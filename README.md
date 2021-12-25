@@ -26,14 +26,14 @@ Sort algorithms implemented so far:
 
 - [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
 ```groovy
-implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0'
+implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 ```
 - [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
 ```xml
 <dependency>
   <groupId>io.github.muhammadkarbalaee</groupId>
   <artifactId>jalgorithm</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
