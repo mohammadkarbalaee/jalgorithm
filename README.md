@@ -37,5 +37,7 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 </dependency>
 ```
 
+
+
 - [Any other dependency manager](https://mvnrepository.com/artifact/io.github.muhammadkarbalaee/jalgorithm)
 
