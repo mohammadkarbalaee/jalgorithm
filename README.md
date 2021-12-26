@@ -43,5 +43,5 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 
 - [Any other dependency manager](https://mvnrepository.com/artifact/io.github.muhammadkarbalaee/jalgorithm)
 
-## Wanna have a part in this thriving project?😍 
+### Wanna have a part in this thriving project?😍 
 [Join us here😉](https://chat.whatsapp.com/Ixw1T8WpbvRLLmppXEqUqM)
