@@ -1,8 +1,12 @@
 <img src="readme_files/jalgorithm.jpg" alt="" width="350" height="350"/>
 
-### I loved Java and algorithms, so I made _Jalgorithm_
+### I loved Java and algorithms, so I made _Jalgorithm_ ❤
 <br>
 Jalgorithm is an open-source Java library which has implemented various algorithms and data structure
+<br>
+<br>
+🚨The source code of the latest release resides on the main branch. The development branch has the latest changes, not published yet.
+<br>
 <br>
 
 Data structure implemented so far:
