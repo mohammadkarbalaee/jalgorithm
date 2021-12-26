@@ -1,8 +1,16 @@
 <img src="readme_files/jalgorithm.jpg" alt="" width="350" height="350"/>
 
+<<<<<<< HEAD
 ### We loved Java and algorithms, So we made _Jalgorithm_
+=======
+### I loved Java and algorithms, so I made _Jalgorithm_ ❤
+>>>>>>> decdaf0648af424500a7702c248677bc34e59250
 <br>
 Jalgorithm is an open-source Java library which has implemented various algorithms and data structure
+<br>
+<br>
+🚨The source code of the latest release resides on the main branch. The development branch has the latest changes, not published yet.
+<br>
 <br>
 
 Data structure implemented so far:
@@ -39,3 +47,5 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 
 - [Any other dependency manager](https://mvnrepository.com/artifact/io.github.muhammadkarbalaee/jalgorithm)
 
+### Wanna have a part in this thriving project?😍 
+[Join us here😉](https://chat.whatsapp.com/Ixw1T8WpbvRLLmppXEqUqM)
