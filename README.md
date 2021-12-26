@@ -1,6 +1,6 @@
 <img src="readme_files/jalgorithm.jpg" alt="" width="350" height="350"/>
 
-### I loved Java and algorithms, so I made _Jalgorithm_
+### We loved Java and algorithms, So we made _Jalgorithm_
 <br>
 Jalgorithm is an open-source Java library which has implemented various algorithms and data structure
 <br>
@@ -24,11 +24,11 @@ Sort algorithms implemented so far:
 
 - [<img src="readme_files/jar.png" width="30"/> Download JAR files manually](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
 
-- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
+- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0.1/jar)
 ```groovy
 implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 ```
-- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0/jar)
+- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0.1/jar)
 ```xml
 <dependency>
   <groupId>io.github.muhammadkarbalaee</groupId>
