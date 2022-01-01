@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 /**
  * @author Muhammad Karbalaee
- * The class which includes the implementation of Bubble sort algorithm
+ * The class which includes the implementation of bubble sort algorithm
  * @param <T> should implement the Comparable interface
  */
 
@@ -61,7 +61,7 @@ public class BubbleSort<T extends Comparable<T>> extends SortAlgorithm{
 
   /**
    *
-   * @return data or sorted data. depends to whether or not you have called sort method before calling it or not
+   * @return data or sorted data. depends on whether you have called sort method before calling it or not
    */
   public ArrayList<T> getData() {
     return data;
