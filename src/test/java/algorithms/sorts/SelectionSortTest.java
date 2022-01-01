@@ -1,6 +1,6 @@
 package algorithms.sorts;
 
-import io.github.jalgorithm.algorithms.sorts.selectionsort.SelectionSort;
+import io.github.jalgorithm.algorithms.sorts.SelectionSort;
 
 import java.util.Arrays;
 

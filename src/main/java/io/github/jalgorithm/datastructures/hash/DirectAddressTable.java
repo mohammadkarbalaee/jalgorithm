@@ -1,8 +1,6 @@
 package io.github.jalgorithm.datastructures.hash;
 
 import io.github.jalgorithm.datastructures.DataStructure;
-import io.github.jalgorithm.exceptions.hash.DataOverridingException;
-import io.github.jalgorithm.exceptions.hash.TableIndexOutOfBoundException;
 
 import java.util.ArrayList;
 

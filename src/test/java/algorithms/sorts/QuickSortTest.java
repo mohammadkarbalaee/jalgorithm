@@ -1,6 +1,6 @@
 package algorithms.sorts;
 
-import io.github.jalgorithm.algorithms.sorts.quicksort.QuickSort;
+import io.github.jalgorithm.algorithms.sorts.QuickSort;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package io.github.jalgorithm.exceptions.hash;
+package io.github.jalgorithm.datastructures.hash;
 
 public class TableIndexOutOfBoundException extends Exception {
   public TableIndexOutOfBoundException(){

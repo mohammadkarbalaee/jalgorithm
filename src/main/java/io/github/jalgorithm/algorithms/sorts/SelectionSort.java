@@ -1,4 +1,4 @@
-package io.github.jalgorithm.algorithms.sorts.selectionsort;
+package io.github.jalgorithm.algorithms.sorts;
 
 import io.github.jalgorithm.algorithms.sorts.SortAlgorithm;
 
