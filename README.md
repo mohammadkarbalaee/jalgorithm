@@ -1,5 +1,18 @@
 <img src="readme_files/jalgorithm.jpg" alt="" width="350" height="350"/>
 
+<br>
+<br>
+
+<p>
+<img src="readme_files/sbu.logo.jfif" alt="" width="50" height="50"/>
+
+Jalgorithm stems from
+<a href="http://en.sbu.ac.ir/SitePages/Home.aspx">
+ Shahid Beheshti University
+</a>
+</p>
+
+
 ### We loved Java and algorithms, so We made _Jalgorithm_ ❤
 
 <br>
