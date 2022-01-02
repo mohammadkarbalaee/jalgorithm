@@ -1,8 +1,11 @@
-plugins {
+/*plugins {
     id 'java-library'
     id 'maven-publish'
     id 'signing'
 }
+*/
+apply plugin: 'java'
+apply plugin: "groovy"
 
 group 'io.github.muhammadkarbalaee'
 version '1.0.1'
@@ -10,11 +13,13 @@ version '1.0.1'
 repositories {
     mavenCentral()
 }
+sourceCompatibility = 1.8
 
 dependencies {
-
+	testImplementation "org.spockframework:spock-core:1.1-groovy-2.4"
 }
 
+/*
 java {
     withJavadocJar()
     withSourcesJar()
@@ -73,6 +78,7 @@ publishing {
 signing {
     sign publishing.publications.mavenJava
 }
+*/
 
 javadoc {
     if(JavaVersion.current().isJava9Compatible()) {
