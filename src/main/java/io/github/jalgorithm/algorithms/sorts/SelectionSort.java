@@ -1,7 +1,5 @@
 package io.github.jalgorithm.algorithms.sorts;
 
-import io.github.jalgorithm.algorithms.sorts.SortAlgorithm;
-
 public class SelectionSort extends SortAlgorithm {
   private final int[] array;
 
