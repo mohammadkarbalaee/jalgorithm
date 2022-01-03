@@ -215,4 +215,46 @@ public class BinarySearchTree<T extends Comparable<T>>{
     }
     return temporaryNode;
   }
+
+  /**
+   * this method replaces one subtree as a child of its parent
+   * with another subtree.
+   * @param firstSubtreeRoot the root of first subtree
+   * @param secondSubtreeRoot the root of second subtree
+   */
+  public void transplant(BinarySearchNode<T> firstSubtreeRoot,
+                         BinarySearchNode<T> secondSubtreeRoot) {
+    if (firstSubtreeRoot.getParent() == null) {
+      this.rootNode = secondSubtreeRoot;
+    } else if (firstSubtreeRoot == firstSubtreeRoot.getParent().getLeftChild()) {
+      firstSubtreeRoot.getParent().setLeftChild(secondSubtreeRoot);
+    } else {
+      firstSubtreeRoot.getParent().setRightChild(secondSubtreeRoot);
+    }
+    if (secondSubtreeRoot != null) {
+      secondSubtreeRoot.setParent(firstSubtreeRoot.getParent());
+    }
+  }
+
+  /**
+   * deletes the specified node from the tree
+   * @param nodeToDelete the node that you want to delete from the tree
+   */
+  public void delete(BinarySearchNode<T> nodeToDelete) {
+    if (nodeToDelete.getLeftChild() == null) {
+      this.transplant(nodeToDelete,nodeToDelete.getRightChild());
+    } else if (nodeToDelete.getRightChild() == null) {
+      this.transplant(nodeToDelete,nodeToDelete.getLeftChild());
+    } else {
+      BinarySearchNode<T> temporaryNode = this.treeMinimum(nodeToDelete.getRightChild());
+      if (temporaryNode.getParent() != nodeToDelete) {
+        this.transplant(temporaryNode,temporaryNode.getRightChild());
+        temporaryNode.setRightChild(nodeToDelete.getRightChild());
+        temporaryNode.getRightChild().setParent(temporaryNode);
+      }
+      this.transplant(nodeToDelete,temporaryNode);
+      temporaryNode.setLeftChild(nodeToDelete.getLeftChild());
+      temporaryNode.getLeftChild().setParent(temporaryNode);
+    }
+  }
 }
