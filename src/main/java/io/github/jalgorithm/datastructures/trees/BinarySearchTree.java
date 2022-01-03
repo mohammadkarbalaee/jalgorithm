@@ -176,9 +176,43 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * @return the node of the tree which has the maximum data value
    */
   public BinarySearchNode<T> treeMaximum(BinarySearchNode<T> startingNode) {
-    while (startingNode.getLeftChild() != null) {
+    while (startingNode.getRightChild() != null) {
       startingNode = startingNode.getRightChild();
     }
     return startingNode;
+  }
+
+  /**
+   *
+   * @param node the node which we want its successor
+   * @return the node which comes exactly after the node in sorted order
+   */
+  public BinarySearchNode<T> treeSuccessor(BinarySearchNode<T> node) {
+    if (node.getRightChild() != null) {
+      return this.treeMinimum(node.getRightChild());
+    }
+    BinarySearchNode<T> temporaryNode = node.getParent();
+    while (temporaryNode != null && node == temporaryNode.getRightChild()) {
+      node = temporaryNode;
+      temporaryNode = temporaryNode.getParent();
+    }
+    return temporaryNode;
+  }
+
+  /**
+   *
+   * @param node the node which we want its predecessor
+   * @return the node which comes exactly before the node in sorted order
+   */
+  public BinarySearchNode<T> treePredecessor(BinarySearchNode<T> node) {
+    if (node.getLeftChild() != null) {
+      return this.treeMaximum(node.getLeftChild());
+    }
+    BinarySearchNode<T> temporaryNode = node.getParent();
+    while (temporaryNode != null && node == temporaryNode.getLeftChild()) {
+      node = temporaryNode;
+      temporaryNode = temporaryNode.getParent();
+    }
+    return temporaryNode;
   }
 }
