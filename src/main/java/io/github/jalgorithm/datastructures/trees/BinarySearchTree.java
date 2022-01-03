@@ -136,6 +136,12 @@ public class BinarySearchTree<T extends Comparable<T>>{
     }
   }
 
+  /**
+   *
+   * @param pivotNode the node that its value is compared to searchingValue parameter
+   * @param searchingValue the value to search for in the tree
+   * @return the node with the wanted value
+   */
   public BinarySearchNode<T> treeSearch(BinarySearchNode<T> pivotNode,T searchingValue) {
     if (pivotNode == null || pivotNode.getData() == searchingValue) {
       return pivotNode;
@@ -146,5 +152,33 @@ public class BinarySearchTree<T extends Comparable<T>>{
     } else {
       return this.treeSearch(pivotNode.getRightChild(),searchingValue);
     }
+  }
+
+  /**
+   *
+   * @param startingNode the node to start finding the minimum from.
+   *                     if you want the minimum node of the whole tree, pass the root node to this
+   *                     method;otherwise, it will find the minimum value in the subtree.
+   * @return the node of the tree which has the minimum data value
+   */
+  public BinarySearchNode<T> treeMinimum(BinarySearchNode<T> startingNode) {
+    while (startingNode.getLeftChild() != null) {
+      startingNode = startingNode.getLeftChild();
+    }
+    return startingNode;
+  }
+
+  /**
+   *
+   * @param startingNode the node to start finding the maximum from.
+   *                     if you want the minimum node of the whole tree, pass the root node to this
+   *                     method;otherwise, it will find the maximum value in the subtree.
+   * @return the node of the tree which has the maximum data value
+   */
+  public BinarySearchNode<T> treeMaximum(BinarySearchNode<T> startingNode) {
+    while (startingNode.getLeftChild() != null) {
+      startingNode = startingNode.getRightChild();
+    }
+    return startingNode;
   }
 }

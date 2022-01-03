@@ -11,8 +11,9 @@ public class BinarySearchSample {
     binarySearchTree.insert(-100);
     binarySearchTree.insert(500);
     //System.out.println(binarySearchTree.getSortedData());
-    BinarySearchNode<Integer> foundNode =
-                    binarySearchTree.treeSearch(binarySearchTree.getRootNode(),-100);
-    System.out.println(foundNode.getParent().getData());
+//    BinarySearchNode<Integer> foundNode =
+//                    binarySearchTree.treeSearch(binarySearchTree.getRootNode(),-100);
+//    System.out.println(foundNode.getParent().getData());
+    System.out.println(binarySearchTree.treeMaximum(binarySearchTree.getRootNode()).getData());
   }
 }
