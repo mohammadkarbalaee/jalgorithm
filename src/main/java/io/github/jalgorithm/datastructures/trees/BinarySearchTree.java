@@ -135,4 +135,16 @@ public class BinarySearchTree<T extends Comparable<T>>{
       parentOfNewNode.setRightChild(newNode);
     }
   }
+
+  public BinarySearchNode<T> treeSearch(BinarySearchNode<T> pivotNode,T searchingValue) {
+    if (pivotNode == null || pivotNode.getData() == searchingValue) {
+      return pivotNode;
+    }
+    int comparisonResult = pivotNode.getData().compareTo(searchingValue);
+    if (comparisonResult > 0) {
+      return this.treeSearch(pivotNode.getLeftChild(),searchingValue);
+    } else {
+      return this.treeSearch(pivotNode.getRightChild(),searchingValue);
+    }
+  }
 }
