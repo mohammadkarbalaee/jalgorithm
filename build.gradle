@@ -54,9 +54,9 @@ publishing {
                         email = 'muhammad.ksht@gmail.com'
                     }
                     developer {
-                        id = 'mayur-navindram'
-                        name = 'Mayur Navindram'
-                        email = ''
+                        id = 'mayur-ravindram'
+                        name = 'Mayur ravindram'
+                        email = 'mayurravindram@gmail.com'
                     }
                 }
                 scm {
