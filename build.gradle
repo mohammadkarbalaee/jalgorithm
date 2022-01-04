@@ -53,6 +53,11 @@ publishing {
                         name = 'Muhammad Karbalaee'
                         email = 'muhammad.ksht@gmail.com'
                     }
+                    developer {
+                        id = 'mayur-navindram'
+                        name = 'Mayur Navindram'
+                        email = ''
+                    }
                 }
                 scm {
                     connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
