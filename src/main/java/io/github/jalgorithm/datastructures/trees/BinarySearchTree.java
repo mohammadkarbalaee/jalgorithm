@@ -257,4 +257,13 @@ public class BinarySearchTree<T extends Comparable<T>>{
       temporaryNode.getLeftChild().setParent(temporaryNode);
     }
   }
+
+  /**
+   *
+   * @return the string representation of a BinarySearchTree object
+   */
+  @Override
+  public String toString() {
+    return "BinarySearchTree{" + "rootNode=" + rootNode.toString() + '}';
+  }
 }
