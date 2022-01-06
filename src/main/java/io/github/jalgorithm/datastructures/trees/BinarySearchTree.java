@@ -26,15 +26,17 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * by calling this method the sorted data will be stored in the
    * @param node the node of the subtree to print. if you want it to print the whole tree,
    *             pass the root node to it.
+   *@param shouldClear if true, the ArrayList containing the result of inorder walk gets cleared. if false, the result is kept
+   *                and concatenated with the result of the previous call.
    */
-  public void inorderTreeWalk(BinarySearchNode<T> node) {
-    if (node == this.rootNode) {
+  public void inorderTreeWalk(BinarySearchNode<T> node,boolean shouldClear) {
+    if (shouldClear) {
       this.sortedData.clear();
     }
     if (node != null) {
-      this.inorderTreeWalk(node.getLeftChild());
+      this.inorderTreeWalk(node.getLeftChild(),false);
       this.sortedData.add(sortedData.size(),node.getData());
-      this.inorderTreeWalk(node.getRightChild());
+      this.inorderTreeWalk(node.getRightChild(),false);
     }
   }
 
@@ -42,15 +44,18 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * by calling this method all the data in this tree will be walked through
    * @param node the node of the subtree to print. if you want it to print the whole tree,
    *             pass the root node to it.
+   *
+   * @param shouldClear if true, the ArrayList containing the result of preorder walk gets cleared. if false, the result is kept
+   *                   and concatenated with the result of the previous call.
    */
-  public void preorderTreeWalk(BinarySearchNode<T> node) {
+  public void preorderTreeWalk(BinarySearchNode<T> node,boolean shouldClear) {
     if (node == this.rootNode) {
       this.preorderWalkResult.clear();
     }
     if (node != null) {
-      this.preorderTreeWalk(node.getLeftChild());
+      this.preorderTreeWalk(node.getLeftChild(),false);
       this.preorderWalkResult.add(preorderWalkResult.size(),node.getData());
-      this.preorderTreeWalk(node.getRightChild());
+      this.preorderTreeWalk(node.getRightChild(),false);
     }
   }
 
@@ -58,15 +63,17 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * by calling this method all the data in this tree will be walked through
    * @param node the node of the subtree to print. if you want it to print the whole tree,
    *             pass the root node to it.
+   * @param shouldClear if true, the ArrayList containing the result of postorder walk gets cleared. if false, the result is kept
+   *                    and concatenated with the result of the previous call.
    */
-  public void postorderTreeWalk(BinarySearchNode<T> node) {
-    if (node == this.rootNode) {
+  public void postorderTreeWalk(BinarySearchNode<T> node,boolean shouldClear) {
+    if (shouldClear) {
       this.postorderWalkResult.clear();
     }
     if (node != null) {
-      this.postorderTreeWalk(node.getLeftChild());
+      this.postorderTreeWalk(node.getLeftChild(),false);
       this.postorderWalkResult.add(postorderWalkResult.size(),node.getData());
-      this.postorderTreeWalk(node.getRightChild());
+      this.postorderTreeWalk(node.getRightChild(),false);
     }
   }
 
@@ -83,7 +90,7 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * @return An ArrayList containing all the data inserted in the tree so far in a sorted order
    */
   public ArrayList<T> getSortedData() {
-    this.inorderTreeWalk(this.rootNode);
+    this.inorderTreeWalk(this.rootNode,true);
     return this.sortedData;
   }
 
@@ -92,7 +99,7 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * @return data in the order presented by preorder tree walk
    */
   public ArrayList<T> getPreorderWalkResult() {
-    this.preorderTreeWalk(this.rootNode);
+    this.preorderTreeWalk(this.rootNode,true);
     return this.preorderWalkResult;
   }
 
@@ -101,8 +108,16 @@ public class BinarySearchTree<T extends Comparable<T>>{
    * @return data in the order presented by postorder tree walk
    */
   public ArrayList<T> getPostorderWalkResult() {
-    this.postorderTreeWalk(this.rootNode);
+    this.postorderTreeWalk(this.rootNode,true);
     return this.postorderWalkResult;
+  }
+
+  /**
+   *
+   * @return data in the order presented by inorder tree walk
+   */
+  public ArrayList<T> getInorderWalkResult() {
+    return this.sortedData;
   }
 
   /**

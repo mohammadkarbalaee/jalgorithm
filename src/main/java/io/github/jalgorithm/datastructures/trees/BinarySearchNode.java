@@ -81,4 +81,31 @@ public class BinarySearchNode<T extends Comparable<T>>{
   public void setData(T data) {
     this.data = data;
   }
+
+  /**
+   * @return the string representation of a BinarySearchNode object
+   */
+  @Override
+  public String toString() {
+    T parentData = null;
+    T leftData = null;
+    T rightData = null;
+
+    if (parent != null) {
+      parentData = parent.getData();
+    }
+    if (leftChild != null) {
+      leftData = leftChild.getData();
+    }
+    if (rightChild != null) {
+      rightData = rightChild.getData();
+    }
+
+    return "BinarySearchNode{" +
+        "parent=" + parentData + ", " +
+        "leftChild=" + leftData + ", " +
+        "rightChild=" + rightData + "," +
+        " data=" + data +
+        '}';
+  }
 }
