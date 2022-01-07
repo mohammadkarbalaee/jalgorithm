@@ -60,4 +60,4 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 - [Any other dependency manager](https://mvnrepository.com/artifact/io.github.muhammadkarbalaee/jalgorithm)
 
 ### Wanna have a part in this thriving project?😍 
-[Join us on Slack <img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="slack"/>](https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA)
+[Join us on Slack <img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="slack" width="60"/>](https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA)
