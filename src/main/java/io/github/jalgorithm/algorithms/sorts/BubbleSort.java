@@ -43,18 +43,14 @@ public class BubbleSort<T extends Comparable<T>> extends SortAlgorithm{
    * @apiNote bubble sort is so efficient for data which is already sorted and just has some minor flaws.
    */
   public void sort() {
-    int dataLength = this.data.size();
-    for (int i = 0; i < dataLength - 1; i++) {
-      boolean isSorted = true;
-      for (int j = 1; j < dataLength; j++) {
+    for (int prevSwap = 0, end = data.size() - 1; end != 0; end = prevSwap) {
+      prevSwap = 0;
+      for (int j = 1; j <= end; j++) {
         int comparisonResult = this.data.get(j).compareTo(this.data.get(j - 1));
         if (comparisonResult < 0) {
           super.swap(this.data,j,j - 1);
-          isSorted = false;
+          prevSwap = j - 1;
         }
-      }
-      if (isSorted) {
-        break;
       }
     }
   }
