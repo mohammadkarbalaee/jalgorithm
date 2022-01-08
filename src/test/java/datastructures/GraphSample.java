@@ -38,7 +38,7 @@ public class GraphSample {
 class Vertex<T>{
   public int label;
   public boolean isVisited = false;
-  public ArrayList<io.github.jalgorithm.datastructures.graphs.Vertex<T>> neighbors;
+  public ArrayList<Vertex<T>> neighbors;
 
   public Vertex(int label) {
     this.label = label;
