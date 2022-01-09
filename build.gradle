@@ -4,7 +4,11 @@
     id 'signing'
 }
 */
-apply plugin: 'java'
+
+plugins {
+	id 'groovy'
+}
+
 apply plugin: "groovy"
 
 group 'io.github.muhammadkarbalaee'
@@ -12,11 +16,20 @@ version '1.0.1'
 
 repositories {
     mavenCentral()
+	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
 sourceCompatibility = 1.8
 
 dependencies {
-	testImplementation "org.spockframework:spock-core:1.1-groovy-2.4"
+	implementation "org.codehaus.groovy:groovy:2.5.15"
+	testImplementation platform("org.spockframework:spock-bom:2.0-groovy-2.5")
+	testImplementation "org.spockframework:spock-core"
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+	useJUnitPlatform()
 }
 
 /*
