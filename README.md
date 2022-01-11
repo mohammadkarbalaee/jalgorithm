@@ -61,3 +61,68 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
 
 ### Wanna have a part in this thriving project?😍 
 [<img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="slack" width="30"/> Join us on Slack](https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA)
+
+
+<details>
+  <summary>Support the team members by (buy😉) a cup of coffee 😊☕</summary>
+  <a href="https://coffeebede.ir/buycoffee/muhammadksht">
+    by Rials👇
+    <br>
+    <img width="100" class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
+    <br>
+    <a href="https://link.trustwallet.com/send?coin=0&address=bc1q5pmusup3nrunesc3yezl6n83czyt29hds9lw42">
+      by <img src="https://www.vectorlogo.zone/logos/bitcoin/bitcoin-icon.svg" width="30" alt="bitcoin"/>
+    </a>
+
+```
+bc1q5pmusup3nrunesc3yezl6n83czyt29hds9lw42
+```
+
+<a href="https://link.trustwallet.com/send?coin=60&address=0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725">
+  by <img src="https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg" width="30" alt="Ethereum"/>
+</a>
+     
+```
+0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725
+```
+
+<a href="https://link.trustwallet.com/send?coin=3&address=DL3zvo932qkzAFBWtKBnoAwGU4hC2z15fA">
+      by <img src="readme_files/dogecoin_logo.png" width="30" alt="Doge Coin"/>
+</a>
+     
+```
+DL3zvo932qkzAFBWtKBnoAwGU4hC2z15fA
+```
+
+
+<a href="https://link.trustwallet.com/send?coin=60&address=0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725&token_id=0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE">
+      by <img src="readme_files/shib.jpg" width="30" alt="SHIB"/>
+</a>
+     
+```
+0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725
+```
+
+<a href="https://link.trustwallet.com/send?coin=195&address=TV67HV7wdeCNvLUWym1CCP238MzoM9xwje">
+      by <img src="readme_files/trx.jfif" width="30" alt="Tron"/>
+</a>
+     
+```
+TV67HV7wdeCNvLUWym1CCP238MzoM9xwje
+```
+
+
+<a href="https://link.trustwallet.com/send?coin=195&address=TV67HV7wdeCNvLUWym1CCP238MzoM9xwje&token_id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t">
+      by <img src="readme_files/usdt.png" width="30" alt="USDT"/>
+</a>
+     
+```
+TV67HV7wdeCNvLUWym1CCP238MzoM9xwje
+```
+
+<a href="mailto:muhammad.ksht@gmail.com">
+     contact us for any other payment method you desire
+     <br>
+     <img src="https://www.vectorlogo.zone/logos/gmail/gmail-tile.svg" width="30" alt="USDT"/>
+</a>
+</details>  
