@@ -48,3 +48,7 @@
 * {
   transition: 1s;
 }
+
+code {
+  font-weight: bold;
+}

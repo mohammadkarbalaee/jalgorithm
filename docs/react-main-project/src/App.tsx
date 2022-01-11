@@ -1,14 +1,24 @@
 import React from 'react';
 import logo from './jalgorithm.jpg';
 import './App.css';
+import Draggable from 'react-draggable';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Draggable>
+          <div>
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+        </Draggable>
+        drag me!🙄
         <p>
-          Jalgorithm, comming soon....
+          <code>Jalgorithm</code>
+          <br/>
+          the DSA library to beat them all.
+          <br/>
+          coming soon....
         </p>
         <a
           className="App-link"
