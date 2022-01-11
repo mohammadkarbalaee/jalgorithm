@@ -68,8 +68,9 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
   <a href="https://coffeebede.ir/buycoffee/muhammadksht">
     by Rials👇
     <br>
-    <img width="100" class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
+    <img width="130" class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
     <br>
+<br>
     <a href="https://link.trustwallet.com/send?coin=0&address=bc1q5pmusup3nrunesc3yezl6n83czyt29hds9lw42">
       by <img src="https://www.vectorlogo.zone/logos/bitcoin/bitcoin-icon.svg" width="30" alt="bitcoin"/>
     </a>
