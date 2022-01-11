@@ -1,20 +1,24 @@
-<img src="readme_files/jalgorithm.jpg" alt="" width="350" height="350"/>
+<img src="readme_files/jalgorithm.jpg" alt="" width="300" height="300"/>
+
+<br>
+
+<img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" width="300">
 
 <br>
 <br>
 
 <p align="center">
-<img src="https://img.shields.io/github/issues/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/issues/muhammadkarbalaee/jalgorithm?style=plastic&color=white">
 <img src="https://img.shields.io/github/forks/muhammadkarbalaee/jalgorithm?style=plastic">
-<img src="https://img.shields.io/github/stars/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/stars/muhammadkarbalaee/jalgorithm?style=plastic&color=gold">
 <img src="https://img.shields.io/github/license/muhammadkarbalaee/jalgorithm?style=plastic">
-
-<img src="https://img.shields.io/github/downloads/muhammadkarbalaee/jalgorithm/total?style=plastic">
 <img src="https://img.shields.io/github/repo-size/muhammadkarbalaee/jalgorithm?style=plastic">
-<img src="https://img.shields.io/github/issues/detail/age/muhammadkarbalaee/jalgorithm/1">
-<img src="https://img.shields.io/github/commit-activity/m/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/issues/detail/age/muhammadkarbalaee/jalgorithm/1?style=plastic&color=purple">
+<img src="https://img.shields.io/github/commit-activity/m/muhammadkarbalaee/jalgorithm?style=plastic&color=red">
 <img src="https://img.shields.io/github/contributors/muhammadkarbalaee/jalgorithm?style=plastic">
-<img src="https://img.shields.io/github/commits-since/muhammadkarbalaee/jalgorithm/v1.0.1/development?color=green&style=plastic">
+<img src="https://img.shields.io/github/commits-since/muhammadkarbalaee/jalgorithm/v1.0.1/development?color=orange&style=plastic">
+<img src="https://img.shields.io/github/last-commit/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://badgen.net/github/closed-issues/muhammadkarbalaee/jalgorithm">
 
 </p>
 <p>
@@ -141,3 +145,9 @@ TV67HV7wdeCNvLUWym1CCP238MzoM9xwje
      <img src="https://www.vectorlogo.zone/logos/gmail/gmail-tile.svg" width="30" alt="USDT"/>
 </a>
 </details>  
+<br>
+<p align="center">
+<img src="https://contributor-overtime-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=muhammadkarbalaee/jalgorithm">
+</p>
+
+
