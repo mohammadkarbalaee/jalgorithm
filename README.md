@@ -87,7 +87,7 @@ bc1q5pmusup3nrunesc3yezl6n83czyt29hds9lw42
 ```
 
 <a href="https://link.trustwallet.com/send?coin=3&address=DL3zvo932qkzAFBWtKBnoAwGU4hC2z15fA">
-      by <img src="readme_files/dogecoin_logo.png" width="30" alt="Doge Coin"/>
+      by <img src="readme_files/dogecoin_Logo.png" width="30" alt="Doge Coin"/>
 </a>
      
 ```
