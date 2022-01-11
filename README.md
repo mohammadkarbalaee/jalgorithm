@@ -16,7 +16,9 @@ Jalgorithm stems from
 <img src="https://img.shields.io/github/forks/muhammadkarbalaee/jalgorithm?style=plastic"/>
 <img src="https://img.shields.io/github/stars/muhammadkarbalaee/jalgorithm?style=plastic"/>
 <img src="https://img.shields.io/github/license/muhammadkarbalaee/jalgorithm?style=plastic"/>
-<img src="https://img.shields.io/twitter/url?color=orange&label=join%20our%20workspace&logo=slack&logoColor=red&style=social&url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fjalgorithm%2Fshared_invite%2Fzt-119j0c542-P4jFxnNQblfn5q4WcanvWA"/>
+<a href="(https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA">
+ <img src="https://img.shields.io/twitter/url?color=orange&label=join%20our%20workspace&logo=slack&logoColor=red&style=social&url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fjalgorithm%2Fshared_invite%2Fzt-119j0c542-P4jFxnNQblfn5q4WcanvWA"/>
+ <a/>
 
 ### We loved Java and algorithms, so We made _Jalgorithm_ ❤
 
