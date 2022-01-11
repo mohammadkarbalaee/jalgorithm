@@ -3,23 +3,24 @@
 <br>
 <br>
 
-
-<img src="https://img.shields.io/github/issues/muhammadkarbalaee/jalgorithm?style=plastic"/>
-<img src="https://img.shields.io/github/forks/muhammadkarbalaee/jalgorithm?style=plastic"/>
-<img src="https://img.shields.io/github/stars/muhammadkarbalaee/jalgorithm?style=plastic"/>
-<img src="https://img.shields.io/github/license/muhammadkarbalaee/jalgorithm?style=plastic"/>
+<p align="center">
+<img src="https://img.shields.io/github/issues/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/forks/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/stars/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/license/muhammadkarbalaee/jalgorithm?style=plastic">
 
 <a href="(https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA">
- <img src="https://img.shields.io/twitter/url?color=orange&label=join%20our%20workspace&logo=slack&logoColor=red&style=plastic&url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fjalgorithm%2Fshared_invite%2Fzt-119j0c542-P4jFxnNQblfn5q4WcanvWA"/>
+ <img src="https://img.shields.io/twitter/url?color=orange&label=join%20our%20workspace&logo=slack&logoColor=red&style=plastic&url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fjalgorithm%2Fshared_invite%2Fzt-119j0c542-P4jFxnNQblfn5q4WcanvWA">
 </a>
 
-<img src="https://img.shields.io/github/downloads/muhammadkarbalaee/jalgorithm/total?style=plastic" />
-<img src="https://img.shields.io/github/repo-size/muhammadkarbalaee/jalgorithm?style=plastic" />
-<img src="https://img.shields.io/github/issues/detail/age/muhammadkarbalaee/jalgorithm/1" />
-<img src="https://img.shields.io/github/commit-activity/m/muhammadkarbalaee/jalgorithm?style=plastic"/>
+<img src="https://img.shields.io/github/downloads/muhammadkarbalaee/jalgorithm/total?style=plastic">
+<img src="https://img.shields.io/github/repo-size/muhammadkarbalaee/jalgorithm?style=plastic">
+<img src="https://img.shields.io/github/issues/detail/age/muhammadkarbalaee/jalgorithm/1">
+<img src="https://img.shields.io/github/commit-activity/m/muhammadkarbalaee/jalgorithm?style=plastic">
 <img src="https://img.shields.io/github/contributors/muhammadkarbalaee/jalgorithm?style=plastic">
 <img src="https://img.shields.io/github/commits-since/muhammadkarbalaee/jalgorithm/v1.0.1/development?color=green&style=plastic">
 
+</p>
 <p>
 <img src="readme_files/sbu.logo.jfif" alt="" width="50" height="50"/>
 
