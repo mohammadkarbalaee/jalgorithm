@@ -9,10 +9,6 @@
 <img src="https://img.shields.io/github/stars/muhammadkarbalaee/jalgorithm?style=plastic">
 <img src="https://img.shields.io/github/license/muhammadkarbalaee/jalgorithm?style=plastic">
 
-<a href="(https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA">
- <img src="https://img.shields.io/twitter/url?color=orange&label=join%20our%20workspace&logo=slack&logoColor=red&style=plastic&url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fjalgorithm%2Fshared_invite%2Fzt-119j0c542-P4jFxnNQblfn5q4WcanvWA">
-</a>
-
 <img src="https://img.shields.io/github/downloads/muhammadkarbalaee/jalgorithm/total?style=plastic">
 <img src="https://img.shields.io/github/repo-size/muhammadkarbalaee/jalgorithm?style=plastic">
 <img src="https://img.shields.io/github/issues/detail/age/muhammadkarbalaee/jalgorithm/1">
