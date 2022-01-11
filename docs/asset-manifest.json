@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/jalgorithm/static/css/main.72d9cd21.css",
+    "main.css": "/jalgorithm/static/css/main.bc3721a7.css",
     "main.js": "/jalgorithm/static/js/main.52354388.js",
     "static/js/27.d172b359.chunk.js": "/jalgorithm/static/js/27.d172b359.chunk.js",
     "static/media/jalgorithm.jpg": "/jalgorithm/static/media/jalgorithm.643cf7884c176930d823.jpg",
     "index.html": "/jalgorithm/index.html"
   },
   "entrypoints": [
-    "static/css/main.72d9cd21.css",
+    "static/css/main.bc3721a7.css",
     "static/js/main.52354388.js"
   ]
 }

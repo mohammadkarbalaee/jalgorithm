@@ -14,8 +14,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-header {
-    animation: pulse infinite 10s linear;
+  .App {
+    animation: pulse infinite 5s ease-in-out;
   }
 }
 
@@ -23,7 +23,7 @@ $page-color: #ff6767;
 $text-color: white;
 
 .App-header {
-  background-color: $page-color;
+  background: linear-gradient(#ff1111, #56ff56,blue, #ffe800,#ff40ef);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -63,11 +63,11 @@ code {
 }
 
 img {
-  border-radius: 100px;
+  border-radius: 50px;
 }
 
 .App-header {
-  transform: scale(0.95);
+  transform: scale(0.9);
 }
 
 .App-header:hover {
@@ -75,32 +75,17 @@ img {
 }
 
 #logo-box:active{
-  transform: scale(0.8);
+  transform: scale(0.7);
 
 }
 
 @keyframes pulse {
-  0% {
-    background-color: transparent;
-  }
 
-  20% {
+  from {
     background-color: black;
   }
 
-  40% {
-    background-color: #fff61e;
-  }
-
-  60% {
-    background-color: #ff841f;
-  }
-
-  80% {
-    background-color: #ff6359;
-  }
-
-  100% {
-    background-color: #FF4136;
+  to {
+    background-color: black;
   }
 }
