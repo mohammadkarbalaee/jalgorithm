@@ -1,34 +1,76 @@
 package io.github.jalgorithm.algorithms.sorts;
 
-public class SelectionSort extends SortAlgorithm {
-  private final int[] array;
+import java.util.ArrayList;
 
-  public SelectionSort(int arrayLength){
-    this.array = new int[arrayLength];
+/**
+ * @author Muhammad Karbalaee
+ * This class implements the most efficient version of selection sort
+ */
+public class SelectionSort<T extends Comparable<T>> extends SortAlgorithm<T> {
+
+  private ArrayList<T> data;
+
+  /**
+   * this is the constructor of the SelectionSort class
+   * @param data an ArrayList of type T that stores all the data that you want to get sorted
+   */
+  public SelectionSort(ArrayList<T> data){
+    this.data = data;
   }
 
-  public SelectionSort(int[] array){
-    this.array = array;
-  }
+  /**
+   * sorts the data array and stores it there. this method doesn't
+   * return anything, so use the getData method to get the sorted data
+   * after you call the sort method
+   */
+  public void sort(){
+    for (int i = 0; i < this.data.size(); i++) {
+      for (int middle = 0, j = i; middle < j; middle++, j--) {
+        T min = this.data.get(middle);
+        T max = this.data.get(middle);
+        int minimumIndex = middle;
+        int maximumIndex = middle;
+        for (int k = middle; k <= j; k++) {
 
-  public int[] sort(int[] array){
-    return actualSort(array);
-  }
+          int tempComparisonResult1 = this.data.get(k).compareTo(max);
+          int tempComparisonResult2 = this.data.get(k).compareTo(min);
 
-  public int[] sort(){
-    return actualSort(this.array);
-  }
+          if (tempComparisonResult1 > 0) {
+            max = this.data.get(k);
+            maximumIndex = k;
+          } else if (tempComparisonResult2 < 0) {
+            min = this.data.get(k);
+            minimumIndex = k;
+          }
+        }
 
-  private int[] actualSort(int[] array){
-    for (int i = 0; i < array.length - 1; i++) {
-      int leastIndex = i;
-      for (int j = i; j < array.length; j++) {
-        if (array[j] < array[leastIndex]){
-          leastIndex = j;
+        super.swap(this.data,middle, minimumIndex);
+
+        int comparison = this.data.get(minimumIndex).compareTo(max);
+        if (comparison == 0){
+          super.swap(this.data,j, minimumIndex);
+        } else {
+          super.swap(this.data,j, maximumIndex);
         }
       }
-      super.swap(this.array,i,leastIndex);
     }
-    return array;
+  }
+
+  /**
+   *
+   * @return the data which is either sorted or not, depending on whether sort method has been
+   * called before or not.
+   */
+  public ArrayList<T> getData() {
+    return data;
+  }
+
+  /**
+   * to set the new data for data field
+   * @param data an ArrayList of type T containing all the data that
+   *             should be sorted
+   */
+  public void setData(ArrayList<T> data) {
+    this.data = data;
   }
 }
