@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  * @author Muhammad Karbalaee
  * @param <T> object of any type
  */
-public class Stack<T>{
+public class Stack<T> {
   private final T[] array;
   private int top = -1;
 
