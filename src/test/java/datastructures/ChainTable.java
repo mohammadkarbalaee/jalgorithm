@@ -3,9 +3,9 @@ package datastructures;
 import io.github.jalgorithm.datastructures.hash.ChainTableInsertionTypes;
 import io.github.jalgorithm.datastructures.hash.ChainedHashTable;
 import io.github.jalgorithm.datastructures.hash.HashFunctionTypes;
-import io.github.jalgorithm.datastructures.hash.KeyLabledObject;
+import io.github.jalgorithm.datastructures.hash.KeyLabeledObject;
 
-class Chainable implements KeyLabledObject {
+class Chainable implements KeyLabeledObject {
   private int key;
   private String value;
 

@@ -4,7 +4,7 @@ import io.github.jalgorithm.datastructures.DataStructure;
 
 import java.util.ArrayList;
 
-public class DirectAddressTable<T extends KeyLabledObject> implements DataStructure<T> {
+public class DirectAddressTable<T extends KeyLabeledObject> implements DataStructure<T> {
   private final ArrayList<T> table;
   private final int tableLength;
 
