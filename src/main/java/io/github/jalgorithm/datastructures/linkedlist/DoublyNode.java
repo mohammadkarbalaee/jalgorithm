@@ -1,8 +1,8 @@
 package io.github.jalgorithm.datastructures.linkedlist;
 
-import io.github.jalgorithm.datastructures.hash.KeyLabledObject;
+import io.github.jalgorithm.datastructures.hash.KeyLabeledObject;
 
-public class DoublyNode<T extends KeyLabledObject>{
+public class DoublyNode<T extends KeyLabeledObject>{
   private T data;
   private DoublyNode<T> previousNode;
   private DoublyNode<T> nextNode;

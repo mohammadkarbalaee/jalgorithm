@@ -5,7 +5,7 @@ import io.github.jalgorithm.datastructures.linkedlist.TailedDoublyLinkedList;
 
 import java.util.ArrayList;
 
-public class ChainedHashTable<T extends KeyLabledObject> implements DataStructure<T> {
+public class ChainedHashTable<T extends KeyLabeledObject> implements DataStructure<T> {
   private final ArrayList<TailedDoublyLinkedList<T>> chainTable;
   private final ChainTableInsertionTypes insertionType;
   private final HashFunctionTypes hashFunctionType;

@@ -1,13 +1,20 @@
 package io.github.jalgorithm.datastructures.linkedlist;
 
+import io.github.jalgorithm.datastructures.hash.KeyLabeledObject;
 
-import io.github.jalgorithm.datastructures.hash.KeyLabledObject;
-
-public class TailedDoublyLinkedList<T extends KeyLabledObject>{
+/**
+ * @param <T> Any object which implements the KeyLabeledObject class
+ */
+public class TailedDoublyLinkedList<T extends KeyLabeledObject>{
   private DoublyNode<T> headNode = null;
   private DoublyNode<T> tailNode = null;
   private int length = 0;
 
+  /**
+   * Return the node at a given index
+   * @param wantedNodeIndex index of node to search for
+   * @return found node
+   */
   public DoublyNode<T> searchIndex(int wantedNodeIndex){
     int middle = this.length / 2;
     DoublyNode<T> wantedNode;
@@ -30,6 +37,11 @@ public class TailedDoublyLinkedList<T extends KeyLabledObject>{
     return wantedNode;
   }
 
+  /**
+   * Searches for a node based on a given key
+   * @param key key of node to search for
+   * @return found node
+   */
   public DoublyNode<T> searchKey(int key){
     int middle = this.length / 2;
     DoublyNode<T> wantedNode;
@@ -48,6 +60,11 @@ public class TailedDoublyLinkedList<T extends KeyLabledObject>{
     return wantedNode;
   }
 
+  /**
+   * Creates a new node and inserts it at a given index
+   * @param indexToInsertAt index at which to insert the node
+   * @param newData data of the new node
+   */
   public void insert(int indexToInsertAt, T newData){
     DoublyNode<T> currentNode;
     DoublyNode<T> newNode = new DoublyNode<>(null,newData,null);
@@ -80,6 +97,10 @@ public class TailedDoublyLinkedList<T extends KeyLabledObject>{
     this.length++;
   }
 
+  /**
+   * Deletes the node at a given index
+   * @param indexToRemove index of node to be removed
+   */
   public void delete(int indexToRemove){
     if (indexToRemove == this.length - 1) {
       if (this.headNode == this.tailNode) {
@@ -111,8 +132,46 @@ public class TailedDoublyLinkedList<T extends KeyLabledObject>{
     this.length--;
   }
 
+  /**
+   * Reverses the order of the current Linked List
+   */
+  public void reverse() {
+    if (this.length > 1) {
+      DoublyNode<T> currentNode = this.headNode;
+      DoublyNode<T> tempNode = null;
+
+      while (currentNode != null) {
+        // Swap next and prev references of each node
+        tempNode = currentNode.getPreviousNode();
+        currentNode.setPreviousNode(currentNode.getNextNode());
+        currentNode.setNextNode(tempNode);
+        currentNode= currentNode.getPreviousNode();
+      }
+
+      // This tempNode is now the second to last of the old list,
+      // such that its new previous node is the last node of the old list
+      assert tempNode != null;
+      this.headNode = tempNode.getPreviousNode();
+    }
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("[ ");
+
+    DoublyNode<T> currentNode = this.headNode;
+    for (int i = 0; i < this.length; i++) {
+      sb.append(currentNode.getData().getKey()).append(" ");
+      currentNode = currentNode.getNextNode();
+    }
+
+    sb.append("]");
+
+    return sb.toString();
+  }
+
   public int size(){
     return this.length;
   }
 }
-

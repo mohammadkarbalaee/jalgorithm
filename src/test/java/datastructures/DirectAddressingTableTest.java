@@ -2,10 +2,10 @@ package datastructures;
 
 import io.github.jalgorithm.datastructures.hash.DataOverridingException;
 import io.github.jalgorithm.datastructures.hash.DirectAddressTable;
-import io.github.jalgorithm.datastructures.hash.KeyLabledObject;
+import io.github.jalgorithm.datastructures.hash.KeyLabeledObject;
 import io.github.jalgorithm.datastructures.hash.TableIndexOutOfBoundException;
 
-class DirectAddressable implements KeyLabledObject {
+class DirectAddressable implements KeyLabeledObject {
   private int key;
   private String value;
 
