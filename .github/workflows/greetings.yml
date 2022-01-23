@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.ACCESS_TOKEN }}
         issue-message: 'Thanks for helping Jalgorithm enhance.❤'
         pr-message: 'Congrats!!🖐🎉✨You had your first contribution to Jalgorithm and now you are one of us😍'
