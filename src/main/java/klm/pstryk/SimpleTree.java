@@ -1,43 +1,47 @@
 package klm.pstryk;
 
-public class SimpleTree<E extends Comparable<E>> {
-  private E value;
-  private SimpleTree<E> left;
-  private SimpleTree<E> right;
-  private int level = 0;
-  private static int treeDepth;
-  private static String[] rows = null;
-
-  public SimpleTree(E value, SimpleTree<E> left, SimpleTree<E> right){
+/**
+ * @author Cyprian Klimkowski
+ * @param <T> Any object implementing the Comparable interface
+ */
+public class SimpleTree<T extends Comparable<T>> {
+  private T value;
+  private SimpleTree<T> left;
+  private SimpleTree<T> right;
+  
+  /**
+   * constructor for SimpleTree class.
+   */
+  public SimpleTree(T value, SimpleTree<T> left, SimpleTree<T> right){
     this.value = value;
     this.left = left;
     this.right = right;
   }
-  public E getValue(){
+  
+  /**
+   *
+   * @return the value of the node
+   */
+  public T getValue(){
     return value;
   }
-  public SimpleTree<E> getLeft(){
+  
+  /**
+   *
+   * @return left child of the node
+   */
+  public SimpleTree<T> getLeft(){
     return left;
   }
-  public SimpleTree<E> getRight(){
+  
+  /**
+   *
+   * @return right child of the node
+   */
+  public SimpleTree<T> getRight(){
     return right;
-  }
-  public void initRows(){
-    if(rows == null){
-      rows = new String[5];
-    }
-    rows[0] = String.valueOf(value);    
-    for(int i=1; i<rows.length; i++){
-      rows[i] = "";   
-    }
-  }
-  public static void resetTreeDepth(){
-    treeDepth = 0; System.out.println("---treeDepth reset---");
-  }
-  public static String[] getRows(){
-    return rows;
-  }
-  public boolean search(E toFind){
+  } 
+  public boolean search(T toFind){
     assert toFind != null : "search: toFind `"+toFind+"` differs from not null FAILED";
     if(toFind.equals(value)){
       return true;
@@ -47,50 +51,74 @@ public class SimpleTree<E extends Comparable<E>> {
     }
     return right != null && right.search(toFind);
   }
-  public void insert(E toInsert){
+  
+  /**
+   *
+   * @param toFind the value to search for in the tree
+   * @return the node with the wanted value or null if not found
+   */
+  public SimpleTree<T> getFound(T toFind){
+    assert toFind != null : "getFound: toFind `"+ toFind +"` is null ASSERTION FAILED";
+    if(toFind.equals(value)){
+      return this;
+    }
+    if(toFind.compareTo(value) < 0 && left != null){
+      return left.getFound(toFind);
+    }
+    if(right != null){
+      return right.getFound(toFind);
+    }
+    return null; // not found
+  }
+  
+  /**
+   *
+   * @param toInsert the value to be inserted into the tree
+   * @return the node with the wanted value or null if not found
+   */
+  public void insert(T toInsert){
     assert toInsert != null : "insert: toInsert `"+toInsert+"` differs from not null FAILED";
     if(toInsert.compareTo(value) < 0){
       if(left == null){
         left = new SimpleTree<>(toInsert, null, null);
-        left.level = level + 1;
-        if(treeDepth < left.level){
-          treeDepth = left.level;
-        }
-        System.out.println("toInsert: `"+toInsert+"` value(parent): `"+value+"` level(parent): `"+level+"` treeDepth: `"+treeDepth+"`");
-        rows[level+1] = toInsert + " " + rows[level+1];
       }else{
-        System.out.println("toInsert: `"+toInsert+"` value(parent): `"+value+"` level(parent): `"+level+"` treeDepth: `"+treeDepth+"`");        
         left.insert(toInsert); 
       }
     }else{
       if(right == null){
         right = new SimpleTree<>(toInsert, null, null);
-        right.level = level + 1;
-        if(treeDepth < right.level){
-          treeDepth = right.level;
-        }
-        System.out.println("toInsert: `"+toInsert+"` value(parent): `"+value+"` level(parent): `"+level+"` treeDepth: `"+treeDepth+"`");  
-        rows[level+1] += toInsert + " ";
       }else{
-        System.out.println("toInsert: `"+toInsert+"` value(parent): `"+value+"` level(parent): `"+level+"` treeDepth: `"+treeDepth+"`");  
         right.insert(toInsert);
       }
     }
   }
-  public static void printRows(){
-    for(String s : SimpleTree.getRows()){
-        System.out.println(s);
-      }   
-  }
-  public void print(){
-    System.out.println("level: `"+level+"` value: `"+value+"`");
+  
+  /**
+   *
+   * @param intArr[] the destination array with the sorted values
+   * @param idx the current index of intArr[] of mutable wrapper of Integer type IntWrapper
+   */
+  public void getSorted(T[] intArr, IntWrapper idx){
     if (left != null) {
-      left.print();  
+      left.getSorted(intArr, idx);  
     }
+    intArr[idx.getVal()] = value; idx.setVal(idx.getVal() + 1);
     if (right != null){
-      right.print();  
+      right.getSorted(intArr, idx);  
     }
   }
 
+  /**
+   *
+   * @return the string representation of a SimpleTree object
+   */
+  @Override
+  public String toString(){
+    return "SimpleTree{" + 
+      "value=" + value + " " +
+      "leftChild=" + left + " " +
+      "rightChild=" + right + " " +
+      "}";
+  }
   
 }
