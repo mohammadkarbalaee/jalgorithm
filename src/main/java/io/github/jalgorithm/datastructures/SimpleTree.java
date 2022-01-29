@@ -1,4 +1,6 @@
-package klm.pstryk;
+package io.github.jalgorithm.datastructures;
+
+import org.codehaus.groovy.runtime.wrappers.IntWrapper;
 
 /**
  * @author Cyprian Klimkowski
@@ -119,6 +121,5 @@ public class SimpleTree<T extends Comparable<T>> {
       "leftChild=" + left + " " +
       "rightChild=" + right + " " +
       "}";
-  }
-  
+
 }

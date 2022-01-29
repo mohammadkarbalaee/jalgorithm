@@ -1,5 +1,8 @@
-package klm.pstryk;
+package datastructures;
 
+
+import io.github.jalgorithm.datastructures.SimpleTree;
+import org.codehaus.groovy.runtime.wrappers.IntWrapper;
 
 public class SimpleTreeTest {
   	public static void main(String[] args) {
