@@ -1,6 +1,6 @@
 package io.github.jalgorithm.datastructures;
 
-import org.codehaus.groovy.runtime.wrappers.IntWrapper;
+import io.github.jalgorithm.datastructures.utils.IntWrapper;
 
 /**
  * @author Cyprian Klimkowski
@@ -97,7 +97,7 @@ public class SimpleTree<T extends Comparable<T>> {
   
   /**
    *
-   * @param intArr[] the destination array with the sorted values
+   * @param intArr the destination array with the sorted values
    * @param idx the current index of intArr[] of mutable wrapper of Integer type IntWrapper
    */
   public void getSorted(T[] intArr, IntWrapper idx){
@@ -121,5 +121,5 @@ public class SimpleTree<T extends Comparable<T>> {
       "leftChild=" + left + " " +
       "rightChild=" + right + " " +
       "}";
-
+  }
 }

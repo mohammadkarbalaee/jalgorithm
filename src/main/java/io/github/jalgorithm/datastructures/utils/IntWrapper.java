@@ -1,4 +1,4 @@
-package klm.pstryk;
+package io.github.jalgorithm.datastructures.utils;
 
 // Integer is an immutable class, so we wrap an integer value in a mutable object.
 public class IntWrapper{
