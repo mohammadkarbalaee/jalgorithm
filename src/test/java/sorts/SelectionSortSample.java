@@ -3,7 +3,6 @@ package sorts;
 import io.github.jalgorithm.algorithms.sorts.SelectionSort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class SelectionSortSample {
   public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class SelectionSortSample {
     for (int i = 0; i < array.length; i++) {
       data.add(array[i]);
     }
-    SelectionSort selectionSort = new SelectionSort(data);
+    SelectionSort<Integer> selectionSort = new SelectionSort<>(data);
     selectionSort.sort();
     System.out.println(selectionSort.getData());
   }

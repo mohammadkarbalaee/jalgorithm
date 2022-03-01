@@ -4,7 +4,7 @@ package io.github.jalgorithm.datastructures.utils;
 public class IntWrapper{
   private Integer val;
   
-  IntWrapper(Integer val){
+  public IntWrapper(Integer val){
     this.val = val;
   }
   
