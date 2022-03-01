@@ -13,6 +13,9 @@ public class SimpleTree<T extends Comparable<T>> {
   
   /**
    * constructor for SimpleTree class.
+   * @param left the left tree
+   * @param right the right tree
+   * @param value the data stored in tree
    */
   public SimpleTree(T value, SimpleTree<T> left, SimpleTree<T> right){
     this.value = value;
@@ -76,7 +79,7 @@ public class SimpleTree<T extends Comparable<T>> {
   /**
    *
    * @param toInsert the value to be inserted into the tree
-   * @return the node with the wanted value or null if not found
+   * the node with the wanted value or null if not found
    */
   public void insert(T toInsert){
     assert toInsert != null : "insert: toInsert `"+toInsert+"` differs from not null FAILED";

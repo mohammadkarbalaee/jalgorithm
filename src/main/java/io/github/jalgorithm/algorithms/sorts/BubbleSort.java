@@ -39,8 +39,8 @@ public class BubbleSort<T extends Comparable<T>> extends SortAlgorithm{
   /**
    * this method sorts the data array using bubble sort algorithm
    * it doesn't return anything.To access the sorted data, call the getData method.
-   * @implNote It also has some improvements compared to the normal algorithm because of using flags.
-   * @apiNote bubble sort is so efficient for data which is already sorted and just has some minor flaws.
+   * It also has some improvements compared to the normal algorithm because of using flags.
+   * bubble sort is so efficient for data which is already sorted and just has some minor flaws.
    */
   public void sort() {
     sort(0, data.size());
@@ -51,7 +51,7 @@ public class BubbleSort<T extends Comparable<T>> extends SortAlgorithm{
    * @param left is the starting of the partition to sort. It is inclusive
    * @param right is the end of the partition to sort. It is exclusive
    * it doesn't return anything.To access the sorted data, call the getData method.
-   * @apiNote bubble sort is so efficient for data which is already sorted and just has some minor flaws.
+   * bubble sort is so efficient for data which is already sorted and just has some minor flaws.
    */
   public void sort(int left, int right) {
     if(!checkBounds(left, right)) {

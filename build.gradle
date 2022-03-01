@@ -1,9 +1,9 @@
-/*plugins {
-    id 'java-library'
-    id 'maven-publish'
-    id 'signing'
-}
-*/
+//plugins {
+//    id 'java-library'
+//    id 'maven-publish'
+//    id 'signing'
+//}
+
 
 plugins {
 	id 'groovy'
@@ -12,7 +12,7 @@ plugins {
 apply plugin: "groovy"
 
 group 'io.github.muhammadkarbalaee'
-version '1.0.1'
+version '1.1.1'
 
 repositories {
     mavenCentral()
@@ -32,71 +32,81 @@ test {
 	useJUnitPlatform()
 }
 
-/*
-java {
-    withJavadocJar()
-    withSourcesJar()
-}
 
-publishing {
-    publications{
+//java {
+//    withJavadocJar()
+//    withSourcesJar()
+//}
+//
+//publishing {
+//    publications{
+//
+//        mavenJava(MavenPublication){
+//
+//            groupId = 'io.github.muhammadkarbalaee'
+//            artifactId = 'jalgorithm'
+//            version = '1.1.1'
+//            from components.java
+//
+//            pom {
+//                name = 'Jalgorithm'
+//                description = 'Jalgorithm is an open-source Java library which has implemented various algorithms and data structure'
+//                url = 'https://github.com/muhammadkarbalaee/jalgorithm'
+//                inceptionYear = '2021'
+//
+//                licenses {
+//                    license {
+//                        name = 'MIT License'
+//                        url = 'http://www.opensource.org/licenses/mit-license.php'
+//                    }
+//                }
+//                developers {
+//                    developer {
+//                        id = 'muhammadkarbalaee'
+//                        name = 'Muhammad Karbalaee'
+//                        email = 'muhammad.ksht@gmail.com'
+//                    }
+//                    developer {
+//                        id = 'mayur-ravindram'
+//                        name = 'Mayur Ravindram'
+//                        email = 'mayurravindram@gmail.com'
+//                    }
+//                    developer {
+//                        id = 'cklimkowski'
+//                        name = 'Cyprian Cklimkowski'
+//                        email = 'cyprian.klimkowski@gmail.com'
+//                    }
+//                    developer {
+//                        id = 'Hreshi'
+//                        name = 'Hrushikesh Kale'
+//                        email = 'hkale746@gmail.com'
+//                    }
+//                }
+//                scm {
+//                    connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
+//                    developerConnection = 'scm:git:ssh://github.com/muhammadkarbalaee/jalgorithm.git'
+//                    url = 'https://github.com/muhammadkarbalaee/jalgorithm'
+//                }
+//            }
+//        }
+//    }
+//
+//    repositories {
+//        maven {
+//            name = "OSSRH"
+//            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
+//            credentials {
+//                username = project.properties["ossrhUsername"]
+//                password = project.properties["ossrhPassword"]
+//            }
+//        }
+//    }
+//}
+//
+//signing {
+//    sign publishing.publications.mavenJava
+//}
 
-        mavenJava(MavenPublication){
-
-            groupId = 'io.github.muhammadkarbalaee'
-            artifactId = 'jalgorithm'
-            version = '1.0.1'
-            from components.java
-
-            pom {
-                name = 'Jalgorithm'
-                description = 'Jalgorithm is an open-source Java library which has implemented various algorithms and data structure'
-                url = 'https://github.com/muhammadkarbalaee/jalgorithm'
-                inceptionYear = '2021'
-
-                licenses {
-                    license {
-                        name = 'MIT License'
-                        url = 'http://www.opensource.org/licenses/mit-license.php'
-                    }
-                }
-                developers {
-                    developer {
-                        id = 'muhammadkarbalaee'
-                        name = 'Muhammad Karbalaee'
-                        email = 'muhammad.ksht@gmail.com'
-                    }
-                    developer {
-                        id = 'mayur-ravindram'
-                        name = 'Mayur ravindram'
-                        email = 'mayurravindram@gmail.com'
-                    }
-                }
-                scm {
-                    connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
-                    developerConnection = 'scm:git:ssh://github.com/muhammadkarbalaee/jalgorithm.git'
-                    url = 'https://github.com/muhammadkarbalaee/jalgorithm'
-                }
-            }
-        }
-    }
-
-    repositories {
-        maven {
-            name = "OSSRH"
-            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
-            credentials {
-                username = project.properties["ossrhUsername"]
-                password = project.properties["ossrhPassword"]
-            }
-        }
-    }
-}
-
-signing {
-    sign publishing.publications.mavenJava
-}
-*/
 
 javadoc {
     if(JavaVersion.current().isJava9Compatible()) {

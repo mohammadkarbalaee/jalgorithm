@@ -39,7 +39,7 @@ public class InsertionSort<T extends Comparable<T>> extends SortAlgorithm{
   /**
    * this method sorts the data array using insertion sort algorithm
    * it doesn't return anything.To access the sorted data, call the getData method.
-   * @apiNote insertion sort is so efficient when it comes to sorting small arrays.
+   * insertion sort is so efficient when it comes to sorting small arrays.
    */
   public void sort() {
     for (int i = 1; i < this.data.size(); i++) {
