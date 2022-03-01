@@ -46,10 +46,21 @@ Data structure implemented so far:
 - chained hash table
 - direct-address table
 - doubly linked list
+- graph
+- simple tree
+- hash table
+- chain table
+- binary search tree
+- queue
+- stack
 
 Sort algorithms implemented so far:
 
 - selection sort
+- quick sort
+- bubble sort
+- insersion sort
+- merge sort
 - quick sort
 
 <br>
@@ -60,16 +71,16 @@ Sort algorithms implemented so far:
 
 - [<img src="readme_files/jar.png" width="30"/> Download JAR files manually](https://repo1.maven.org/maven2/io/github/muhammadkarbalaee/jalgorithm/)
 
-- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0.1/jar)
+- [<img src="readme_files/gradle.jpg" width="30"/> Inject via Gradle](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.1.1/jar)
 ```groovy
-implementation 'io.github.muhammadkarbalaee:jalgorithm:1.0.1'
+implementation 'io.github.muhammadkarbalaee:jalgorithm:1.1.1'
 ```
-- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.0.1/jar)
+- [<img src="readme_files/maven-logo.png" width="30"/> Inject via Maven](https://search.maven.org/artifact/io.github.muhammadkarbalaee/jalgorithm/1.1.1/jar)
 ```xml
 <dependency>
   <groupId>io.github.muhammadkarbalaee</groupId>
   <artifactId>jalgorithm</artifactId>
-  <version>1.0.1</version>
+  <version>1.1.1</version>
 </dependency>
 ```
 
