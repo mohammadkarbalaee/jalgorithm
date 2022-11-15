@@ -36,4 +36,9 @@ public class DoublyNode<T extends KeyLabeledObject>{
   public void setNextNode(DoublyNode<T> nextNode) {
     this.nextNode = nextNode;
   }
+
+  @Override
+  public String toString() {
+    return "DoublyNode{" + "data=" + data + ", previousNode=" + previousNode + ", nextNode=" + nextNode + '}';
+  }
 }

@@ -4,35 +4,6 @@ plugins {
     id 'signing'
 }
 
-
-plugins {
-	id 'groovy'
-}
-
-apply plugin: "groovy"
-
-group 'io.github.muhammadkarbalaee'
-version '1.1.1'
-
-repositories {
-    mavenCentral()
-	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
-}
-sourceCompatibility = 1.8
-
-dependencies {
-	implementation 'org.codehaus.groovy:groovy:3.0.8'
-	testImplementation platform("org.spockframework:spock-bom:2.0-groovy-2.5")
-	testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
-	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
-}
-
-test {
-	useJUnitPlatform()
-}
-
-
 java {
     withJavadocJar()
     withSourcesJar()
@@ -105,11 +76,4 @@ publishing {
 
 signing {
     sign publishing.publications.mavenJava
-}
-
-
-javadoc {
-    if(JavaVersion.current().isJava9Compatible()) {
-        options.addBooleanOption('html5', true)
-    }
 }
