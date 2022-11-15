@@ -1,12 +1,12 @@
-plugins {
-    id 'java-library'
-    id 'maven-publish'
-    id 'signing'
-}
+//plugins {
+//    id 'java-library'
+//    id 'maven-publish'
+//    id 'signing'
+//}
 
 
 plugins {
-	id 'groovy'
+    id 'groovy'
 }
 
 apply plugin: "groovy"
@@ -16,96 +16,96 @@ version '1.1.1'
 
 repositories {
     mavenCentral()
-	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
 sourceCompatibility = 1.8
 
 dependencies {
-	implementation 'org.codehaus.groovy:groovy:3.0.8'
-	testImplementation platform("org.spockframework:spock-bom:2.0-groovy-2.5")
-	testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
-	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    implementation 'org.codehaus.groovy:groovy:3.0.8'
+    testImplementation platform("org.spockframework:spock-bom:2.0-groovy-2.5")
+    testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
 }
 
 test {
-	useJUnitPlatform()
+    useJUnitPlatform()
 }
 
 
-java {
-    withJavadocJar()
-    withSourcesJar()
-}
-
-publishing {
-    publications{
-
-        mavenJava(MavenPublication){
-
-            groupId = 'io.github.muhammadkarbalaee'
-            artifactId = 'jalgorithm'
-            version = '1.1.2'
-            from components.java
-
-            pom {
-                name = 'Jalgorithm'
-                description = 'Jalgorithm is an open-source Java library which has implemented various algorithms and data structure'
-                url = 'https://github.com/muhammadkarbalaee/jalgorithm'
-                inceptionYear = '2021'
-
-                licenses {
-                    license {
-                        name = 'MIT License'
-                        url = 'http://www.opensource.org/licenses/mit-license.php'
-                    }
-                }
-                developers {
-                    developer {
-                        id = 'muhammadkarbalaee'
-                        name = 'Muhammad Karbalaee'
-                        email = 'muhammad.ksht@gmail.com'
-                    }
-                    developer {
-                        id = 'mayur-ravindram'
-                        name = 'Mayur Ravindram'
-                        email = 'mayurravindram@gmail.com'
-                    }
-                    developer {
-                        id = 'cklimkowski'
-                        name = 'Cyprian Cklimkowski'
-                        email = 'cyprian.klimkowski@gmail.com'
-                    }
-                    developer {
-                        id = 'Hreshi'
-                        name = 'Hrushikesh Kale'
-                        email = 'hkale746@gmail.com'
-                    }
-                }
-                scm {
-                    connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
-                    developerConnection = 'scm:git:ssh://github.com/muhammadkarbalaee/jalgorithm.git'
-                    url = 'https://github.com/muhammadkarbalaee/jalgorithm'
-                }
-            }
-        }
-    }
-
-    repositories {
-        maven {
-            name = "OSSRH"
-            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
-            credentials {
-                username = project.properties["ossrhUsername"]
-                password = project.properties["ossrhPassword"]
-            }
-        }
-    }
-}
-
-signing {
-    sign publishing.publications.mavenJava
-}
+//java {
+//    withJavadocJar()
+//    withSourcesJar()
+//}
+//
+//publishing {
+//    publications{
+//
+//        mavenJava(MavenPublication){
+//
+//            groupId = 'io.github.muhammadkarbalaee'
+//            artifactId = 'jalgorithm'
+//            version = '1.1.1'
+//            from components.java
+//
+//            pom {
+//                name = 'Jalgorithm'
+//                description = 'Jalgorithm is an open-source Java library which has implemented various algorithms and data structure'
+//                url = 'https://github.com/muhammadkarbalaee/jalgorithm'
+//                inceptionYear = '2021'
+//
+//                licenses {
+//                    license {
+//                        name = 'MIT License'
+//                        url = 'http://www.opensource.org/licenses/mit-license.php'
+//                    }
+//                }
+//                developers {
+//                    developer {
+//                        id = 'muhammadkarbalaee'
+//                        name = 'Muhammad Karbalaee'
+//                        email = 'muhammad.ksht@gmail.com'
+//                    }
+//                    developer {
+//                        id = 'mayur-ravindram'
+//                        name = 'Mayur Ravindram'
+//                        email = 'mayurravindram@gmail.com'
+//                    }
+//                    developer {
+//                        id = 'cklimkowski'
+//                        name = 'Cyprian Cklimkowski'
+//                        email = 'cyprian.klimkowski@gmail.com'
+//                    }
+//                    developer {
+//                        id = 'Hreshi'
+//                        name = 'Hrushikesh Kale'
+//                        email = 'hkale746@gmail.com'
+//                    }
+//                }
+//                scm {
+//                    connection = 'scm:git:git:github.com/muhammadkarbalaee/jalgorithm.git'
+//                    developerConnection = 'scm:git:ssh://github.com/muhammadkarbalaee/jalgorithm.git'
+//                    url = 'https://github.com/muhammadkarbalaee/jalgorithm'
+//                }
+//            }
+//        }
+//    }
+//
+//    repositories {
+//        maven {
+//            name = "OSSRH"
+//            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
+//            credentials {
+//                username = project.properties["ossrhUsername"]
+//                password = project.properties["ossrhPassword"]
+//            }
+//        }
+//    }
+//}
+//
+//signing {
+//    sign publishing.publications.mavenJava
+//}
 
 
 javadoc {
