@@ -1,5 +1,6 @@
 <p align="center">
 <img src="readme_files/jalgo.gif" alt="" width="500" height="500"/>
+<br>
 <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" width="200">
 </p>
 
