@@ -1,8 +1,10 @@
-<img src="readme_files/jalgorithm.jpg" alt="" width="300" height="300"/>
+<p align="center">
+<img src="readme_files/jalgo.gif" alt="" width="500" height="500"/>
+<img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" width="200">
+</p>
 
 <br>
 
-<img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" width="300">
 
 <br>
 <br>
@@ -92,62 +94,63 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.1.1'
 [<img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="slack" width="30"/> Join us on Slack](https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA)
 
 
-<details>
-  <summary>Support the team members by (buy😉) a cup of coffee 😊☕</summary>
-  <a href="https://coffeebede.ir/buycoffee/muhammadksht">
+### Donation ☕
+Your donations help us add more algorithms and data structures to Jalgorithm. ☺️
+
+<a href="https://coffeebede.ir/buycoffee/muhammadksht">
     by Rials👇
     <br>
     <img width="130" class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
     <br>
 <br>
-    <a href="https://link.trustwallet.com/send?coin=0&address=bc1q5pmusup3nrunesc3yezl6n83czyt29hds9lw42">
+    <a href="https://link.trustwallet.com/send?coin=0&address=bc1qnm05lpkjz0pal33k5ql7vctayqu2vvfqf4cytt">
       by <img src="https://www.vectorlogo.zone/logos/bitcoin/bitcoin-icon.svg" width="30" alt="bitcoin"/>
     </a>
 
 ```
-bc1q5pmusup3nrunesc3yezl6n83czyt29hds9lw42
+bc1qnm05lpkjz0pal33k5ql7vctayqu2vvfqf4cytt
 ```
 
-<a href="https://link.trustwallet.com/send?coin=60&address=0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725">
+<a href="https://link.trustwallet.com/send?coin=60&address=0xb3e3bfa9a6eFb8031eCe720D25c50cB5cc6668da">
   by <img src="https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg" width="30" alt="Ethereum"/>
 </a>
-     
+
 ```
-0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725
+0xb3e3bfa9a6eFb8031eCe720D25c50cB5cc6668da
 ```
 
-<a href="https://link.trustwallet.com/send?coin=3&address=DL3zvo932qkzAFBWtKBnoAwGU4hC2z15fA">
-      by <img src="readme_files/dogecoin_Logo.png" width="30" alt="Doge Coin"/>
+<a href="https://link.trustwallet.com/send?coin=3&address=DAHeY48RtPfvwJrGdspAboBXwRteiEMBCV">
+      by <img src="readme_files/dogecoin_Logo.png" width="30" alt="Dogecoin"/>
 </a>
-     
+
 ```
-DL3zvo932qkzAFBWtKBnoAwGU4hC2z15fA
+DAHeY48RtPfvwJrGdspAboBXwRteiEMBCV
 ```
 
 
-<a href="https://link.trustwallet.com/send?coin=60&address=0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725&token_id=0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE">
+<a href="https://link.trustwallet.com/send?coin=20000714&address=0xb3e3bfa9a6eFb8031eCe720D25c50cB5cc6668da&token_id=0x2859e4544C4bB03966803b044A93563Bd2D0DD4D">
       by <img src="readme_files/shib.jpg" width="30" alt="SHIB"/>
 </a>
-     
+
 ```
-0x9e0Bd006368E2b119b8c8AA01e117dbFd594d725
+0xb3e3bfa9a6eFb8031eCe720D25c50cB5cc6668da
 ```
 
-<a href="https://link.trustwallet.com/send?coin=195&address=TV67HV7wdeCNvLUWym1CCP238MzoM9xwje">
+<a href="https://link.trustwallet.com/send?coin=195&address=TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A">
       by <img src="readme_files/trx.jfif" width="30" alt="Tron"/>
 </a>
-     
+
 ```
-TV67HV7wdeCNvLUWym1CCP238MzoM9xwje
+TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A
 ```
 
 
-<a href="https://link.trustwallet.com/send?coin=195&address=TV67HV7wdeCNvLUWym1CCP238MzoM9xwje&token_id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t">
+<a href="https://link.trustwallet.com/send?coin=195&address=TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A&token_id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t">
       by <img src="readme_files/usdt.png" width="30" alt="USDT"/>
 </a>
-     
+
 ```
-TV67HV7wdeCNvLUWym1CCP238MzoM9xwje
+TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A
 ```
 
 <a href="mailto:muhammad.ksht@gmail.com">
@@ -155,8 +158,8 @@ TV67HV7wdeCNvLUWym1CCP238MzoM9xwje
      <br>
      <img src="https://www.vectorlogo.zone/logos/gmail/gmail-tile.svg" width="30" alt="USDT"/>
 </a>
-</details>  
 <br>
+
 <p align="center">
 <img src="https://contributor-overtime-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=muhammadkarbalaee/jalgorithm">
 </p>
