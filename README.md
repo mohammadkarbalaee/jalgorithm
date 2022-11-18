@@ -92,8 +92,9 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.1.1'
 - [Any other dependency manager](https://mvnrepository.com/artifact/io.github.muhammadkarbalaee/jalgorithm)
 
 ### Contacting Developers ☎️
-[<img src="https://www.vectorlogo.zone/logos/discordapp/discordapp-official.svg" alt="slack" width="30"/> Join our Discord server](https://discord.gg/ktZsTqXX)
+[<img src="https://www.vectorlogo.zone/logos/discordapp/discordapp-official.svg" alt="slack" width="150"/> Join our Discord server](https://discord.gg/ktZsTqXX)
 
+<br>
 
 ### Donation ☕
 Your donations help us add more algorithms and data structures to Jalgorithm. ☺️
