@@ -90,21 +90,21 @@ implementation 'io.github.muhammadkarbalaee:jalgorithm:1.1.1'
 
 - [Any other dependency manager](https://mvnrepository.com/artifact/io.github.muhammadkarbalaee/jalgorithm)
 
-### Wanna have a part in this thriving project?😍 
-[<img src="https://www.vectorlogo.zone/logos/slack/slack-icon.svg" alt="slack" width="30"/> Join us on Slack](https://join.slack.com/t/jalgorithm/shared_invite/zt-119j0c542-P4jFxnNQblfn5q4WcanvWA)
+### Contacting Developers ☎️
+[<img src="https://www.vectorlogo.zone/logos/discordapp/discordapp-official.svg" alt="slack" width="30"/> Join our Discord server](https://discord.gg/ktZsTqXX)
 
 
 ### Donation ☕
 Your donations help us add more algorithms and data structures to Jalgorithm. ☺️
 
 <a href="https://coffeebede.ir/buycoffee/muhammadksht">
-    by Rials👇
+    Rials👇
     <br>
-    <img width="130" class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
+    <img width="200" class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
     <br>
 <br>
     <a href="https://link.trustwallet.com/send?coin=0&address=bc1qnm05lpkjz0pal33k5ql7vctayqu2vvfqf4cytt">
-      by <img src="https://www.vectorlogo.zone/logos/bitcoin/bitcoin-icon.svg" width="30" alt="bitcoin"/>
+      <img src="https://www.vectorlogo.zone/logos/bitcoin/bitcoin-icon.svg" width="30" alt="bitcoin"/>
     </a>
 
 ```
@@ -112,7 +112,7 @@ bc1qnm05lpkjz0pal33k5ql7vctayqu2vvfqf4cytt
 ```
 
 <a href="https://link.trustwallet.com/send?coin=60&address=0xb3e3bfa9a6eFb8031eCe720D25c50cB5cc6668da">
-  by <img src="https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg" width="30" alt="Ethereum"/>
+  <img src="https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg" width="30" alt="Ethereum"/>
 </a>
 
 ```
@@ -120,7 +120,7 @@ bc1qnm05lpkjz0pal33k5ql7vctayqu2vvfqf4cytt
 ```
 
 <a href="https://link.trustwallet.com/send?coin=3&address=DAHeY48RtPfvwJrGdspAboBXwRteiEMBCV">
-      by <img src="readme_files/dogecoin_Logo.png" width="30" alt="Dogecoin"/>
+      <img src="readme_files/dogecoin_Logo.png" width="30" alt="Dogecoin"/>
 </a>
 
 ```
@@ -129,7 +129,7 @@ DAHeY48RtPfvwJrGdspAboBXwRteiEMBCV
 
 
 <a href="https://link.trustwallet.com/send?coin=20000714&address=0xb3e3bfa9a6eFb8031eCe720D25c50cB5cc6668da&token_id=0x2859e4544C4bB03966803b044A93563Bd2D0DD4D">
-      by <img src="readme_files/shib.jpg" width="30" alt="SHIB"/>
+      <img src="readme_files/shib.jpg" width="30" alt="SHIB"/>
 </a>
 
 ```
@@ -137,7 +137,7 @@ DAHeY48RtPfvwJrGdspAboBXwRteiEMBCV
 ```
 
 <a href="https://link.trustwallet.com/send?coin=195&address=TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A">
-      by <img src="readme_files/trx.jfif" width="30" alt="Tron"/>
+      <img src="readme_files/trx.jfif" width="30" alt="Tron"/>
 </a>
 
 ```
@@ -146,7 +146,7 @@ TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A
 
 
 <a href="https://link.trustwallet.com/send?coin=195&address=TGVuMmEpdZELjHZvYiPi5YZoQchUJk7b3A&token_id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t">
-      by <img src="readme_files/usdt.png" width="30" alt="USDT"/>
+      <img src="readme_files/usdt.png" width="30" alt="USDT"/>
 </a>
 
 ```
